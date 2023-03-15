@@ -29,10 +29,10 @@ fun namecharacters(names:Array<String>):Int{
 }
 //serves drinks according to age
 fun guests(age:Int){
-    if (age in 1..6){
+    if (age in 0..5){
         println("Milk")
     }
-    else if (age in 6..15){
+    else if (age in 6..14){
         println("Fanta Orange")
     }
     else{
